@@ -1,0 +1,19 @@
+package Arrays1D;
+
+public class FindingEvenElementsInArray {
+
+	public static void main(String[] args) {
+		int arr[]= {23,46,58,43,44};
+		
+		System.out.println("....finding even numbers....");
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]%2==0) {
+				System.out.println(arr[i]);
+				
+			}
+			
+		}
+
+	}
+
+}
